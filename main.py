@@ -24,6 +24,5 @@ try:
 except :
     logging.info("lỗi pandas_ta")
 
-
 df = df.drop(columns = ['Date'])
 st.write(platform.system())
