@@ -26,5 +26,6 @@ except :
     logging.info("lỗi pandas_ta")
 
 df = df.drop(columns = ['Date'])
+st.write(df.shape[1])
 st.write(platform.system())
 st.write(datetime.now())
