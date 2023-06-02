@@ -26,4 +26,4 @@ except :
 
 
 df = df.drop(columns = ['Date'])
-st.write(platform.python_version())
+st.write(df.shape[1])
