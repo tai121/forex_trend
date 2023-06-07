@@ -10,7 +10,7 @@ from datetime import datetime
 import subprocess
 
 # Chạy lệnh "ls" và lấy kết quả đầu ra
-result = subprocess.run(['ls'], capture_output=True, text=True)
+# result = subprocess.run(['ls'], capture_output=True, text=True)
 
 # In kết quả đầu ra
 print(result.stdout)
