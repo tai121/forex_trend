@@ -13,7 +13,7 @@ import subprocess
 # result = subprocess.run(['ls'], capture_output=True, text=True)
 
 # In kết quả đầu ra
-print(result.stdout)
+# print(result.stdout)
 
 # df = df.drop(columns = ['Date'])
 # st.write(df.shape[1])
