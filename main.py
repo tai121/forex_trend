@@ -8,7 +8,7 @@ import logging
 import platform
 from datetime import datetime
 url = 'https://anaconda.org/conda-forge/libta-lib/0.4.0/download/linux-64/libta-lib-0.4.0-h166bdaf_1.tar.bz2'
-os.system('curl -L $url | tar xj -C /usr/lib/x86_64-linux-gnu/ lib --strip-components=1')
+os.system('curl -L https://anaconda.org/conda-forge/libta-lib/0.4.0/download/linux-64/libta-lib-0.4.0-h166bdaf_1.tar.bz2 | tar xj -C /usr/lib/x86_64-linux-gnu/ lib --strip-components=1')
 # In kết quả đầu ra
 # print(result.stdout)
 
