@@ -10,7 +10,7 @@ from datetime import datetime
 import subprocess
 
 # Chạy lệnh "ls" và lấy kết quả đầu ra
-# result = subprocess.run(['ls'], capture_output=True, text=True)
+result = subprocess.run(['ls'], capture_output=True, text=True)
 
 # In kết quả đầu ra
 # print(result.stdout)
@@ -19,3 +19,4 @@ import subprocess
 # st.write(df.shape[1])
 st.write(platform.system())
 st.write(datetime.now())
+st.write(result)
