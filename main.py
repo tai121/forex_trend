@@ -7,11 +7,8 @@ import pandas_ta as ta
 import logging
 import platform
 from datetime import datetime
-import subprocess
-
-# Chạy lệnh "ls" và lấy kết quả đầu ra
-result = subprocess.run(['ls'], capture_output=True, text=True)
-
+url = 'https://anaconda.org/conda-forge/libta-lib/0.4.0/download/linux-64/libta-lib-0.4.0-h166bdaf_1.tar.bz2'
+os.system('curl -L $url | tar xj -C /usr/lib/x86_64-linux-gnu/ lib --strip-components=1')
 # In kết quả đầu ra
 # print(result.stdout)
 
@@ -19,4 +16,3 @@ result = subprocess.run(['ls'], capture_output=True, text=True)
 # st.write(df.shape[1])
 st.write(platform.system())
 st.write(datetime.now())
-st.write(result)
